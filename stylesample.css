@@ -16,7 +16,7 @@ header
     height:50px;
     display: flex;
     gap: 20px;
-    background-color: whitesmoke;
+    background-color: transparent;
     justify-content: space-around;
 }
 
@@ -87,6 +87,48 @@ header
     background-color: rgb(0, 71, 133);
     border: none;
 }
+
+.main
+{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height:90vh;
+}
+
+.mainhead
+{
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+.mainh
+{
+    width:50%
+}
+
+.mainh 
+{
+    background-color: ;
+    padding: 10px;
+}
+
+.mianhbox
+{
+    background-color:rgb(0, 71, 133);
+}
+
+.wel
+{
+    color: rgb(0, 71, 133);
+    opacity: 40%;
+    letter-spacing: 10px;
+}
+
+.parag2
+{
+    text-align: center;
+}
+
 footer
 {
     position:fixed;
@@ -107,4 +149,12 @@ marquee
 .alert
 {
     color: white;
+}
+
+@media screen (min-width:600px;)
+{
+    .menu
+    {
+        visibility:hidden;
+    }
 }
